@@ -3,9 +3,9 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 
 PASSWORDS = {
-    "abcd": "active",
-    "1234": "active",
-    "5678": "active",
+    
+    "9696": "active",
+    
 }
 
 @app.route('/check', methods=['POST'])
